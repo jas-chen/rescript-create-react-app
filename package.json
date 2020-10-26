@@ -23,9 +23,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "re:build": "bsb -make-world",
-    "re:clean": "bsb -clean-world",
-    "re:watch": "bsb -make-world -w"
+    "bsb:build": "bsb -make-world",
+    "bsb:clean": "bsb -clean-world",
+    "bsb:watch": "bsb -make-world -w"
   },
   "eslintConfig": {
     "extends": [
