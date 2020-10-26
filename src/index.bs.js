@@ -9,7 +9,7 @@ import './index.css'
 ;
 
 function reportWebVitals(prim) {
-  ReportWebVitals();
+  ReportWebVitals(prim);
   
 }
 
@@ -19,7 +19,7 @@ if (!(root == null)) {
   ReactDom.render(React.createElement(App.make, {}), root);
 }
 
-ReportWebVitals();
+ReportWebVitals(undefined);
 
 export {
   reportWebVitals ,

@@ -1,5 +1,5 @@
 %%raw(`import './index.css'`)
-@bs.module("./reportWebVitals") external reportWebVitals: unit => unit = "default"
+@bs.module("./reportWebVitals") external reportWebVitals: ('metric) => () = "default"
 
 switch ReactDOM.querySelector("#root") {
 | Some(root) => ReactDOM.render(<App />, root)
