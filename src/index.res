@@ -1,5 +1,4 @@
 %%raw(`import './index.css'`)
-@bs.module("./reportWebVitals") external reportWebVitals: ('metric) => () = "default"
 
 switch ReactDOM.querySelector("#root") {
 | Some(root) => ReactDOM.render(<App />, root)
@@ -7,6 +6,6 @@ switch ReactDOM.querySelector("#root") {
 }
 
 // If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
+// to log results (for example: ReportWebVitals.reportWebVitals(Js.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals()
+ReportWebVitals.reportWebVitals(Js.log)
