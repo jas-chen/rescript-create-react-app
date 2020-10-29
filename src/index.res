@@ -6,6 +6,6 @@ switch ReactDOM.querySelector("#root") {
 }
 
 // If you want to start measuring performance in your app, pass a function
-// to log results (for example: ReportWebVitals.reportWebVitals(Js.log))
+// to log results (for example: WebVitals.report(Js.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-ReportWebVitals.reportWebVitals(Js.log)
+WebVitals.report(Js.log)
